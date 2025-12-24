@@ -1,0 +1,53 @@
+{
+  "name": "@paean-ai/webhook-push",
+  "version": "1.0.0",
+  "description": "Cross-platform webhook notification tool supporting WeCom, DingTalk, Feishu, Slack, and Telegram",
+  "main": "index.js",
+  "bin": {
+    "webhook-push": "./cli.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "README.md",
+    "env.example"
+  ],
+  "scripts": {
+    "test": "node test.js",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "webhook",
+    "notification",
+    "wecom",
+    "wechat-work",
+    "dingtalk",
+    "feishu",
+    "lark",
+    "slack",
+    "telegram",
+    "ci-cd",
+    "devops",
+    "push",
+    "bot",
+    "message"
+  ],
+  "author": "Paean AI",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthropic-ai/vibe-coding-tools.git",
+    "directory": "webhook-push"
+  },
+  "homepage": "https://github.com/anthropic-ai/vibe-coding-tools/tree/main/webhook-push#readme",
+  "bugs": {
+    "url": "https://github.com/anthropic-ai/vibe-coding-tools/issues"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {}
+}

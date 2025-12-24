@@ -1,0 +1,29 @@
+# Source control
+.git/
+.gitignore
+
+# Development files
+test.js
+.env
+.env.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+
+# Lock files (users will generate their own)
+yarn.lock
+package-lock.json
+
